@@ -1,6 +1,6 @@
 #intro {
   height: calc(100vh - 4rem);
-
+  letter-spacing: 0.1rem;
   width: 100vw;
   max-width: 75rem;
   margin: 0 auto;
@@ -13,13 +13,12 @@
   z-index: -1;
   right: 0;
   object-fit: cover;
-  top: 2rem;
-  height: 70vh;
+  top: -2rem;
+  height: 95vh;
 }
 .introContent {
-  border: 1px solid #fff;
   height: 100vh;
-  width: 100vw;
+  width: 70vw;
   padding: 2rem;
   font-size: 2rem;
   display: flex;
@@ -35,10 +34,62 @@
   color: yellow;
 }
 .introPara {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 100;
 }
 .btn {
   background: #fff;
   margin: 1rem 0;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 840px) {
+  .bg {
+    right: -10vw;
+  }
+
+  .introContent {
+    height: 150vh;
+    width: 70vw;
+    padding: 2rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #intro {
+    width: 95vw;
+  }
+
+  .introContent {
+    height: 93vh;
+    width: 60vw;
+    padding: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+  .bg {
+    right: 0;
+    height: 64vh;
+  }
+  .introPara {
+    font-size: 1rem;
+    font-weight: 100;
+    width: 60vw;
+  }
 }

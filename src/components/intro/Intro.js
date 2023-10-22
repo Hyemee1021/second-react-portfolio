@@ -2,7 +2,7 @@ import React from "react";
 import bg from "../../assets/portfolio.png";
 import { Link } from "react-scroll";
 import "./intro.css";
-import { GrStatusGood } from "react-icons/gr";
+import { FaUserCheck } from "react-icons/fa";
 const Intro = () => {
   return (
     <section id="intro">
@@ -15,13 +15,14 @@ const Intro = () => {
           MERN Full Stack developer
         </span>
         <p className="introPara">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt,
-          odit architecto nam consectetur dolores placeat omnis voluptate amet!
-          Sequi, dolorem?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <br />
+          Nesciunt, odit architecto nam consectetur dolores placeat omnis
+          voluptate amet! Sequi, dolorem?
         </p>
         <Link>
           <button className="btn">
-            <GrStatusGood />
+            <FaUserCheck />
             Hire me
           </button>
         </Link>
