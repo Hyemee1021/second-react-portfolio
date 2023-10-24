@@ -1,6 +1,6 @@
 #contactPage {
   min-height: calc(100vh - 4rem);
-  width: 60rem;
+  width: 100vw;
   max-width: 60rem;
   margin: 0 auto;
   text-align: center;
