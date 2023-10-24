@@ -21,7 +21,7 @@ const Works = () => {
         <img src={Portfolio5} alt="" className="worksImg" />
         <img src={Portfolio6} alt="" className="worksImg" />
       </div>
-      <button className="worksBtn">See more</button>
+      <button className="workBtn">See more</button>
     </section>
   );
 };

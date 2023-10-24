@@ -22,6 +22,7 @@ const Skills = () => {
             <p>This is demo text, you can write my own content</p>
           </div>
         </div>
+
         <div className="skillBar">
           <img className="skillBarImg" alt="logo" src={webDesign} />
           <div className="skillBarText">

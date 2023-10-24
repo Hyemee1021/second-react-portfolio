@@ -1,5 +1,17 @@
-section {
-  margin-top: 8rem;
+#contactPage {
+  min-height: calc(100vh - 4rem);
+  width: 60rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactPageTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 .contactDesc {
   padding: 1rem;
@@ -68,4 +80,5 @@ section {
 }
 .link i {
   font-size: 3rem;
+  object-fit: cover;
 }
