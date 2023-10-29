@@ -9,12 +9,20 @@ import Portfolio6 from "../../assets/portfolio-6.png";
 const Works = () => {
   return (
     <section id="works">
-      <h2 className="worksTitle">My Portfolios</h2>\
+      <h2 className="worksTitle">My Portfolios</h2>
       <span className="worksDesc">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, tempora!
+        Here are my projects I have worked on. I use JavaScript, React, Node.js
+        and so on...
       </span>
       <div className="worksImgs">
-        <img src={Portfolio1} alt="" className="worksImg" />
+        <a
+          className="MyProjects"
+          href="https://react-movie-mate-git-main-hyemee1021.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={Portfolio1} alt="first project" className="worksImg" />
+        </a>
         <img src={Portfolio2} alt="" className="worksImg" />
         <img src={Portfolio3} alt="" className="worksImg" />
         <img src={Portfolio4} alt="" className="worksImg" />
