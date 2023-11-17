@@ -41,6 +41,9 @@
   margin-right: 2rem;
 }
 
+.skill-icon {
+  font-size: 2rem;
+}
 .skillBarText > p {
   font-size: 0.9rem;
   font-weight: 200;

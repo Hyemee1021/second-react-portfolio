@@ -1,8 +1,9 @@
 import React from "react";
 import bg from "../../assets/portfolio.png";
+import image from "../../assets/image.png";
 import { Link } from "react-scroll";
 import "./intro.css";
-import { FaUserCheck } from "react-icons/fa";
+
 const Intro = () => {
   return (
     <section id="intro">
@@ -15,15 +16,13 @@ const Intro = () => {
           MERN Full Stack developer
         </span>
         <p className="introPara">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          <br />
-          Nesciunt, odit architecto nam consectetur dolores placeat omnis
-          voluptate amet! Sequi, dolorem?
+          I am passinate
+          <br />I am a passionate web developer in coding. I love to keep
+          learning new things, and I am a team player.
         </p>
         <Link>
           <button className="btn">
-            <FaUserCheck />
-            Hire me
+            <i class="fa-solid fa-download"> Resume</i>
           </button>
         </Link>
       </div>

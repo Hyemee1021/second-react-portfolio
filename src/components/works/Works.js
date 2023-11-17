@@ -11,8 +11,7 @@ const Works = () => {
     <section id="works">
       <h2 className="worksTitle">My Portfolios</h2>
       <span className="worksDesc">
-        Here are my projects I have worked on. I use JavaScript, React, Node.js
-        and so on...
+        Here are my projects I have worked on. Stay tune for new projects...
       </span>
       <div className="worksImgs">
         <a
@@ -29,7 +28,7 @@ const Works = () => {
         <img src={Portfolio5} alt="" className="worksImg" />
         <img src={Portfolio6} alt="" className="worksImg" />
       </div>
-      <button className="workBtn">See more</button>
+      {/* <button className="workBtn">See more</button> */}
     </section>
   );
 };

@@ -1,41 +1,50 @@
 import React from "react";
 import "./contact.css";
-import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import { useRef } from "react";
+// import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_rul7c0g",
-        "template_k4jvylb",
-        form.current,
-        "fVlL772VEAJpfozwR"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          e.target.reset();
-          alert("Email sent");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  //   emailjs
+  //     .sendForm(
+  //       "service_rul7c0g",
+  //       "template_k4jvylb",
+  //       form.current,
+  //       "fVlL772VEAJpfozwR"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         e.target.reset();
+  //         alert("Email sent");
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
+
   return (
     <div id="contactPage">
       <div id="contact">
         <h1 className="contactPageTitle">Contact me</h1>
         <span className="contactDesc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-          sapiente?
+          I would love to share and expand insights in the IT industry.
         </span>
-        <form ref={form} onSubmit={sendEmail} action="" className="contactForm">
+
+        <ul style={{ listStyle: "none" }} className="list-group ">
+          <li style={{ marginTop: "1.2rem" }} className="  list-group-item">
+            Phone: 0402 096 632
+          </li>
+          <li style={{ marginTop: "1.1rem" }} className="list-group-item ">
+            email: hyemee1021@gmail.com
+          </li>
+        </ul>
+        {/* <form ref={form} onSubmit={sendEmail} action="" className="contactForm">
           <input
             type="text"
             placeholder="Your name"
@@ -60,14 +69,14 @@ const Contact = () => {
 
           <div className="links">
             <div className="link">
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </div>
 
             <div className="link">
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
             </div>
           </div>
-        </form>
+        </form> */}
       </div>
     </div>
   );

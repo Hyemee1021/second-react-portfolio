@@ -16,7 +16,7 @@ const Navbar = () => {
           to="intro"
           duration={500}
           smooth={true}
-          offset={-100}
+          offset={-50}
           spy={true}
           className="desktopMenuListItem"
         >
@@ -28,25 +28,38 @@ const Navbar = () => {
           to="skills"
           duration={500}
           smooth={true}
-          offset={-70}
+          offset={-50}
           spy={true}
         >
           About
         </Link>
+
         <Link
           className="desktopMenuListItem"
           activeClass="active"
           to="works"
           duration={500}
           smooth={true}
-          offset={-100}
+          offset={-50}
           spy={true}
         >
           Portfolio
         </Link>
+
+        <Link
+          className="desktopMenuListItem"
+          activeClass="active"
+          to="contact"
+          duration={500}
+          smooth={true}
+          offset={-50}
+          spy={true}
+        >
+          Contact
+        </Link>
       </div>
 
-      <button
+      {/* <button
         className="desktopMenuBtn"
         onClick={() => {
           document
@@ -58,7 +71,7 @@ const Navbar = () => {
           <MdContactSupport />
         </div>
         Contact me
-      </button>
+      </button> */}
 
       <img
         src={menu}
