@@ -15,20 +15,25 @@ const Works = () => {
       </span>
       <div className="worksImgs">
         <a
-          className="MyProjects"
+          className="MyProjects overlay1"
           href="https://react-movie-mate-git-main-hyemee1021.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={Portfolio1} alt="first project" className="worksImg" />
+          <div className="text-overlay1"> React ,Tailwind, HTML </div>
         </a>
+
         <a
-          className="MyProjects"
+          className="MyProjects overlay2"
           href="https://transaction-client-seven.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={Portfolio2} alt="" className="worksImg" />
+          <div className="text-overlay2">
+            NodeJS, React ,React-bootrap, HTML
+          </div>
         </a>
 
         <img src={Portfolio3} alt="" className="worksImg" />
