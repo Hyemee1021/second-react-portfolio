@@ -43,6 +43,24 @@ const Contact = () => {
           <li style={{ marginTop: "1.1rem" }} className="list-group-item ">
             email: hyemee1021@gmail.com
           </li>
+          <li style={{ marginTop: "1.1rem" }} className="list-group-item ">
+            <a
+              href="https://github.com/Hyemee1021"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li style={{ marginTop: "1.1rem" }} className="list-group-item ">
+            <a
+              href="https://www.linkedin.com/in/hye-mee-park/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
         </ul>
         {/* <form ref={form} onSubmit={sendEmail} action="" className="contactForm">
           <input
