@@ -32,7 +32,7 @@ const Works = () => {
         >
           <img src={Portfolio2} alt="" className="worksImg" />
           <div className="text-overlay2">
-            NodeJS, React ,React-bootrap, HTML
+            Mongodb, NodeJS, React ,React-bootrap, HTML
           </div>
         </a>
 
