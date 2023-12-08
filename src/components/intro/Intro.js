@@ -16,9 +16,8 @@ const Intro = () => {
           MERN Full Stack developer
         </span>
         <p className="introPara">
-          I am passinate
-          <br />I am a passionate web developer in coding. I love to keep
-          learning new things, and I am a team player.
+          <br />I am a passionate web developer. I love to keep learning new
+          skills, and I am a team player.
         </p>
         <Link>
           <button className="btn">
