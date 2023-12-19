@@ -32,7 +32,7 @@ const Works = () => {
         >
           <img src={Portfolio2} alt="" className="worksImg" />
           <div className="text-overlay2">
-            Mongodb, NodeJS, React ,React-bootrap, HTML
+            Mongodb, NodeJS, React ,React-bootstrap, HTML
           </div>
         </a>
 
@@ -44,8 +44,8 @@ const Works = () => {
           rel="noreferrer"
         >
           <img src={Portfolio2} alt="" className="worksImg" />
-          <div className="text-overlay2">
-            Mongodb, NodeJS, React ,React-bootrap, HTML
+          <div className="text-overlay3">
+            Mongodb, NodeJS, React ,React-bootstrap, HTML
           </div>
         </a>
 

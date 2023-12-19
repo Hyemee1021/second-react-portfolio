@@ -5,7 +5,7 @@ import Skills from "./components/skills/Skills";
 import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-
+import "./app.css";
 function App() {
   return (
     <div className="App">

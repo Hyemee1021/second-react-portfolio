@@ -69,7 +69,7 @@
 .overlay1:hover .text-overlay1 {
   opacity: 1;
 }
-
+/*  */
 .overlay2 {
   position: relative;
 }
@@ -92,6 +92,31 @@
 }
 
 .overlay2:hover .text-overlay2 {
+  opacity: 1;
+}
+/*  */
+.overlay3 {
+  position: relative;
+}
+.text-overlay3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+  opacity: 0;
+  transition: all 0.2 ease-in-out;
+}
+
+.overlay3:hover .text-overlay3 {
   opacity: 1;
 }
 @media screen and (max-width: 585px) {

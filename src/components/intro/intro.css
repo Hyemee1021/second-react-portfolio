@@ -6,15 +6,22 @@
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  margin-top: 1rem;
 }
 
 .bg {
+  border-radius: 50%;
   position: absolute;
   z-index: -1;
   right: 0;
   object-fit: cover;
-  top: -4rem;
+  top: 0rem;
   height: 100vh;
+}
+
+.introText {
+  text-shadow: 2px 3px #000;
+  margin-bottom: 2rem;
 }
 .introContent {
   height: 100vh;
@@ -27,16 +34,25 @@
   font-weight: 700;
 }
 .hello {
+  text-shadow: 1px 1px #000;
+  padding-top: 5rem;
   font-size: 1.7rem;
   font-weight: 100;
 }
 .introName {
+  text-shadow: 1px 1px #000;
+  padding-top: 3rem;
   color: yellow;
+  text-shadow: 1px 1px #000;
 }
 .introPara {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 100;
   letter-spacing: 1px;
+  text-shadow: 1px 1px #000;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 .btn {
   background: #fff;

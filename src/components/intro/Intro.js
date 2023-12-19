@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../../assets/portfolio.png";
+import bg from "../../assets/hyemee-photo2.jpg";
 import image from "../../assets/image.png";
 import { Link } from "react-scroll";
 import "./intro.css";
@@ -16,8 +16,10 @@ const Intro = () => {
           MERN Full Stack developer
         </span>
         <p className="introPara">
-          <br />I am a passionate web developer. I love to keep learning new
-          skills, and I am a team player.
+          <br />I am a passionate web developer. Some traits of my strong points
+          that I am proud of are persistance and diligence. <br /> Also, I am
+          sure I will be a member who makes a harmony with other team members
+          and get things done!!
         </p>
         <Link>
           <button className="btn">
@@ -25,7 +27,9 @@ const Intro = () => {
           </button>
         </Link>
       </div>
-      <img src={bg} className="bg" alt="portfolio-pic" />
+      <div className="picture">
+        <img src={bg} className="bg" alt="portfolio-pic" />
+      </div>
     </section>
   );
 };
