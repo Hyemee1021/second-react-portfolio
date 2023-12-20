@@ -21,7 +21,7 @@ const Works = () => {
           rel="noreferrer"
         >
           <img src={Portfolio1} alt="first project" className="worksImg" />
-          <div className="text-overlay1"> React ,Tailwind, HTML </div>
+          <div className="text-overlay1">React ,Tailwind, HTML </div>
         </a>
 
         <a
@@ -43,13 +43,12 @@ const Works = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={Portfolio2} alt="" className="worksImg" />
-          <div className="text-overlay3">
+          <img src={Portfolio3} alt="" className="worksImg" />
+          <div className="text-overlay3 ">
             Mongodb, NodeJS, React ,React-bootstrap, HTML
           </div>
         </a>
 
-        <img src={Portfolio3} alt="" className="worksImg" />
         <img src={Portfolio4} alt="" className="worksImg" />
         <img src={Portfolio5} alt="" className="worksImg" />
         <img src={Portfolio6} alt="" className="worksImg" />
