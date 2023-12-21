@@ -3,8 +3,13 @@ import bg from "../../assets/hyemee-photo2.jpg";
 import image from "../../assets/image.png";
 import { Link } from "react-scroll";
 import "./intro.css";
+import HyeMeePark from "../../assets/HyeMee _Park.pdf";
 
 const Intro = () => {
+  const handleDownloadClick = () => {
+    // You can use JavaScript to trigger the download
+    window.open(HyeMeePark, "_blank");
+  };
   return (
     <section id="intro">
       <div className="introContent">
@@ -22,7 +27,7 @@ const Intro = () => {
           and get things done!!
         </p>
         <Link>
-          <button className="btn">
+          <button className="btn" onClick={handleDownloadClick}>
             <i class="fa-solid fa-download"> Resume</i>
           </button>
         </Link>
