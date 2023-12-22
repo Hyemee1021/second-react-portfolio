@@ -3,14 +3,16 @@ import "./skills.css";
 import UIDesign from "../../assets/ui-design.png";
 import appDesign from "../../assets/app-design.png";
 import webDesign from "../../assets/website-design.png";
-
+import { BsBootstrap } from "react-icons/bs";
+import { SiRedux } from "react-icons/si";
 const Skills = () => {
   return (
     <section id="skills">
       <span className="skillTitle">What I do</span>
       <span className="skillDesc">
-        I can use ExpressJs, Redux, Bootstrap , React Bootstrap, tailwind css,
-        also, my skillset is still growing
+        I can use ExpressJs, React-Redux, Bootstrap , React Bootstrap, tailwind
+        css. <br />
+        Also, my skillset is still growing...
       </span>
 
       <div className="skillBars">
@@ -19,7 +21,7 @@ const Skills = () => {
           <i class="fa-brands skill-icon fa-square-js"></i>
 
           <div className="skillBarText">
-            <h2> &nbsp; NodeJs</h2>
+            <h2> &nbsp; Node.Js</h2>
           </div>
         </div>
         <div className="skillBar">
@@ -29,12 +31,28 @@ const Skills = () => {
             <h2> &nbsp; React</h2>
           </div>
         </div>
+        <div className="skillBar">
+          {/* <img className="skillBarImg" alt="logo" src={UIDesign} /> */}
+          <SiRedux className=" skill-icon" />
+
+          <div className="skillBarText">
+            <h2> &nbsp; React-Redux</h2>
+          </div>
+        </div>
 
         <div className="skillBar">
           {/* <img className="skillBarImg" alt="logo" src={UIDesign} /> */}
           <i class="skill-icon fa-brands fa-square-js"> </i>
           <div className="skillBarText">
             <h2> &nbsp; JavaScript</h2>
+          </div>
+        </div>
+        <div className="skillBar">
+          {/* <img className="skillBarImg" alt="logo" src={UIDesign} /> */}
+          <BsBootstrap className="skill-icon" />
+
+          <div className="skillBarText">
+            <h2> &nbsp; Bootstrap</h2>
           </div>
         </div>
 
