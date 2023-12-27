@@ -43,6 +43,9 @@ const Contact = () => {
           <li style={{ marginTop: "1.1rem" }} className="list-group-item ">
             email: hyemee1021@gmail.com
           </li>
+        </ul>
+
+        <ul className="second-ul">
           <li style={{ marginTop: "1.1rem" }} className="list-group-item ">
             <a
               href="https://github.com/Hyemee1021"

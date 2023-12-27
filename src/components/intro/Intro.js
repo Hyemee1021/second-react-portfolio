@@ -11,7 +11,7 @@ const Intro = () => {
     window.open(HyeMeePark, "_blank");
   };
   return (
-    <section id="intro">
+    <div id="intro">
       <div className="introContent">
         <span className="hello">Hello,</span>
         <span className="introText">
@@ -35,7 +35,7 @@ const Intro = () => {
       <div className="picture">
         <img src={bg} className="bg" alt="portfolio-pic" />
       </div>
-    </section>
+    </div>
   );
 };
 

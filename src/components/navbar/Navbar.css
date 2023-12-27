@@ -13,11 +13,16 @@
   z-index: 3;
 }
 .logo {
-  object-fit: cover;
   height: 3rem;
   width: 4rem;
+  font-size: 1.5rem;
+  transition: 0.2s all ease-in-out;
 }
 
+.logo:hover {
+  font-size: 1.7rem;
+  transition: 0.2s all ease-in-out;
+}
 .desktopMenuListItem {
   margin: 1rem;
   cursor: pointer;
@@ -51,6 +56,12 @@
   display: none;
   object-fit: cover;
   height: 1.8rem;
+  transition: 0.2s all ease-in-out;
+}
+
+.mobMenu:hover {
+  scale: 1.2;
+  transition: 0.2s all ease-in-out;
 }
 .navMenu {
   position: absolute;

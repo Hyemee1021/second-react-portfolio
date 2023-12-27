@@ -8,7 +8,7 @@ import Portfolio5 from "../../assets/portfolio-5.png";
 import Portfolio6 from "../../assets/portfolio-6.png";
 const Works = () => {
   return (
-    <section id="works">
+    <div id="works">
       <h2 className="worksTitle">My Projects</h2>
       <span className="worksDesc">
         Here are my projects I have worked on. Stay tune for new projects...
@@ -38,8 +38,7 @@ const Works = () => {
 
         <a
           className="MyProjects overlay3"
-          href="fullstack-library3-client.vercel.app
-          "
+          href="https://fullstack-library3-client.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -54,7 +53,7 @@ const Works = () => {
         <img src={Portfolio6} alt="" className="worksImg" />
       </div>
       {/* <button className="workBtn">See more</button> */}
-    </section>
+    </div>
   );
 };
 

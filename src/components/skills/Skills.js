@@ -1,13 +1,11 @@
 import React from "react";
 import "./skills.css";
-import UIDesign from "../../assets/ui-design.png";
-import appDesign from "../../assets/app-design.png";
-import webDesign from "../../assets/website-design.png";
+
 import { BsBootstrap } from "react-icons/bs";
 import { SiRedux } from "react-icons/si";
 const Skills = () => {
   return (
-    <section id="skills">
+    <div id="skills">
       <span className="skillTitle">What I do</span>
       <span className="skillDesc">
         I can use ExpressJs, React-Redux, Bootstrap , React Bootstrap, tailwind
@@ -72,7 +70,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

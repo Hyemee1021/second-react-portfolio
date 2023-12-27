@@ -58,8 +58,12 @@
   border: none;
   border-radius: 2rem;
   font-weight: 500;
+  transition: 0.2s all ease-in;
 }
-
+.btn:hover {
+  scale: 1.1;
+  transition: 0.2s all ease-in;
+}
 @media screen and (max-width: 840px) {
   .bg {
     right: -10vw;

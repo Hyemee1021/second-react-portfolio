@@ -89,3 +89,16 @@ li i {
 .list-group-item {
   font-size: 1.3em;
 }
+.second-ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  justify-content: center;
+}
+.second-ul li {
+  transition: 0.2s all ease-in-out;
+}
+.second-ul li:hover {
+  scale: 1.2;
+  transition: 0.2s all ease-in-out;
+}

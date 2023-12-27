@@ -9,7 +9,8 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <img src={logo} alt="logo" srcset="" className="logo" />
+      {/* <img src={logo} alt="logo" srcset="" className="logo" /> */}
+      <div className="logo">HMP</div>
       <div className="desktopMenu">
         <Link
           activeClass="active"
