@@ -3,7 +3,7 @@ import bg from "../../assets/hyemee-photo2.jpg";
 import image from "../../assets/image.png";
 import { Link } from "react-scroll";
 import "./intro.css";
-import HyeMeePark from "../../assets/HyeMee _Park.pdf";
+import HyeMeePark from "../../assets/hyemee_Park.pdf";
 
 const Intro = () => {
   const handleDownloadClick = () => {
