@@ -9,11 +9,15 @@
   align-items: center;
   justify-content: center;
 }
+#contact {
+  width: 95%;
+}
 .contactPageTitle {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 .contactDesc {
+  display: block;
   padding: 1rem;
   font-size: 1.1rem;
   font-weight: 300;
@@ -94,6 +98,7 @@ li i {
   list-style: none;
   gap: 2rem;
   justify-content: center;
+  margin-top: 1rem;
 }
 .second-ul li {
   transition: 0.2s all ease-in-out;

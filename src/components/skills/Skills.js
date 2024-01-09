@@ -56,6 +56,13 @@ const Skills = () => {
 
         <div className="skillBar">
           {/* <img className="skillBarImg" alt="logo" src={webDesign} /> */}
+          <i class="skill-icon fa-brands fa-trello"></i>
+          <div className="skillBarText">
+            <h2> &nbsp; Trello</h2>
+          </div>
+        </div>
+        <div className="skillBar">
+          {/* <img className="skillBarImg" alt="logo" src={webDesign} /> */}
           <i class=" skill-icon fa-brands fa-css3-alt"></i>
           <div className="skillBarText">
             <h2> &nbsp; css</h2>
