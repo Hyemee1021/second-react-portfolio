@@ -11,6 +11,8 @@
 }
 #contact {
   width: 95%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .contactPageTitle {
   font-size: 3rem;
