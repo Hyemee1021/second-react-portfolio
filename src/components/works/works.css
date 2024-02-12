@@ -147,6 +147,32 @@
 .overlay4:hover .text-overlay4 {
   opacity: 1;
 }
+
+.overlay5 {
+  position: relative;
+}
+.text-overlay5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+  opacity: 0;
+  transition: all 0.2 ease-in-out;
+}
+
+.overlay5:hover .text-overlay5 {
+  opacity: 1;
+}
+
 @media screen and (max-width: 585px) {
   .worksImg {
     height: 48vw;

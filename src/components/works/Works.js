@@ -4,7 +4,7 @@ import Portfolio1 from "../../assets/project1.png";
 import Portfolio2 from "../../assets/project2.png";
 import Portfolio3 from "../../assets/portfolio-3.png";
 import Portfolio4 from "../../assets/trello.png";
-import Portfolio5 from "../../assets/portfolio-5.png";
+import Portfolio5 from "../../assets/project5.png";
 import Portfolio6 from "../../assets/portfolio-6.png";
 const Works = () => {
   return (
@@ -15,15 +15,16 @@ const Works = () => {
       </span>
       <div className="worksImgs">
         <a
-          className="MyProjects overlay4"
-          href="https://trello.com/b/edZ2Kj0U/international-drinks"
+          className="MyProjects overlay5"
+          href="https://tour-managment-frontend-brjusg957-hyemee1021.vercel.app/home"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={Portfolio4} alt="" className="worksImg" />
-          <div className="text-overlay4 ">Utilizing Trello during project</div>
+          <img src={Portfolio5} alt="" className="worksImg" />
+          <div className="text-overlay5 ">
+            Mongodb, NodeJS, React ,React-bootstrap, HTML
+          </div>
         </a>
-
         <a
           className="MyProjects overlay1"
           href="https://react-movie-mate-git-main-hyemee1021.vercel.app/"
@@ -58,7 +59,16 @@ const Works = () => {
           </div>
         </a>
 
-        <img src={Portfolio5} alt="" className="worksImg" />
+        <a
+          className="MyProjects overlay4"
+          href="https://trello.com/b/edZ2Kj0U/international-drinks"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={Portfolio4} alt="" className="worksImg" />
+          <div className="text-overlay4 ">Utilizing Trello during project</div>
+        </a>
+
         <img src={Portfolio6} alt="" className="worksImg" />
       </div>
       {/* <button className="workBtn">See more</button> */}
