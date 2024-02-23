@@ -16,7 +16,7 @@ const Works = () => {
       <div className="worksImgs">
         <a
           className="MyProjects overlay5"
-          href="https://tour-managment-frontend-brjusg957-hyemee1021.vercel.app/home"
+          href="https://tour-manager-frontend.vercel.app/home"
           target="_blank"
           rel="noreferrer"
         >
