@@ -11,9 +11,7 @@ const Works = () => {
   return (
     <div id="works">
       <h2 className="worksTitle">My Projects</h2>
-      <span className="worksDesc">
-        Here are my projects I have worked on. Stay tune for new projects...
-      </span>
+      <span className="worksDesc">Stay tune for new projects...</span>
       <div className="worksImgs">
         <a
           className="MyProjects overlay5"
@@ -69,16 +67,6 @@ const Works = () => {
           <div className="text-overlay3 ">
             Mongodb, NodeJS, React ,React-bootstrap, HTML
           </div>
-        </a>
-
-        <a
-          className="MyProjects overlay4"
-          href="https://trello.com/b/edZ2Kj0U/international-drinks"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={Portfolio4} alt="" className="worksImg" />
-          <div className="text-overlay4 ">Utilizing Trello during project</div>
         </a>
       </div>
       {/* <button className="workBtn">See more</button> */}

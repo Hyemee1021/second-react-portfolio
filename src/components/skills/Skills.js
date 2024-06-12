@@ -7,11 +7,7 @@ const Skills = () => {
   return (
     <div id="skills">
       <span className="skillTitle">What I do</span>
-      <span className="skillDesc">
-        I can use ExpressJs, React-Redux, Bootstrap , React Bootstrap, tailwind
-        css. <br />
-        Also, my skillset is still growing...
-      </span>
+      <span className="skillDesc">My skillset is still growing...</span>
 
       <div className="skillBars">
         <div className="skillBar">
@@ -54,13 +50,6 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="skillBar">
-          {/* <img className="skillBarImg" alt="logo" src={webDesign} /> */}
-          <i class="skill-icon fa-brands fa-trello"></i>
-          <div className="skillBarText">
-            <h2> &nbsp; Trello</h2>
-          </div>
-        </div>
         <div className="skillBar">
           {/* <img className="skillBarImg" alt="logo" src={webDesign} /> */}
           <i class=" skill-icon fa-brands fa-css3-alt"></i>

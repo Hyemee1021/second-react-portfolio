@@ -63,14 +63,18 @@
   padding: 1rem;
   font-size: 1.8rem;
   font-weight: 300;
-  background-color: black;
+  background-color: rgb(28, 28, 28);
   color: white;
   opacity: 0;
-  transition: all 0.2 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .overlay1:hover .text-overlay1 {
   opacity: 1;
+  transition: all 0.3 ease-in-out;
 }
 /*  */
 .overlay2 {
@@ -88,14 +92,18 @@
   padding: 1rem;
   font-size: 1.8rem;
   font-weight: 300;
-  background-color: black;
+  background-color: rgb(28, 28, 28);
   color: white;
   opacity: 0;
-  transition: all 0.2 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .overlay2:hover .text-overlay2 {
   opacity: 1;
+  transition: all 0.3 ease-in-out;
 }
 /*  */
 .overlay3 {
@@ -113,14 +121,18 @@
   padding: 1rem;
   font-size: 1.8rem;
   font-weight: 300;
-  background-color: black;
+  background-color: rgb(28, 28, 28);
   color: white;
   opacity: 0;
-  transition: all 0.2 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .overlay3:hover .text-overlay3 {
   opacity: 1;
+  transition: all 0.3 ease-in-out;
 }
 
 .overlay4 {
@@ -138,14 +150,18 @@
   padding: 1rem;
   font-size: 1.8rem;
   font-weight: 300;
-  background-color: black;
+  background-color: rgb(28, 28, 28);
   color: white;
   opacity: 0;
-  transition: all 0.2 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .overlay4:hover .text-overlay4 {
   opacity: 1;
+  transition: all 0.3 ease-in-out;
 }
 
 .overlay5 {
@@ -163,14 +179,18 @@
   padding: 1rem;
   font-size: 1.8rem;
   font-weight: 300;
-  background-color: black;
+  background-color: rgb(28, 28, 28);
   color: white;
   opacity: 0;
-  transition: all 0.2 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .overlay5:hover .text-overlay5 {
   opacity: 1;
+  transition: all 0.3 ease-in-out;
 }
 
 @media screen and (max-width: 585px) {

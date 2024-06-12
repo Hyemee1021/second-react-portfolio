@@ -3,7 +3,7 @@ import bg from "../../assets/profile-photo.png";
 import image from "../../assets/image.png";
 import { Link } from "react-scroll";
 import "./intro.css";
-import HyeMeePark from "../../assets/hyemee_Park.pdf";
+import HyeMeePark from "../../assets/hyemeePark_frontend.pdf";
 
 const Intro = () => {
   const handleDownloadClick = () => {
@@ -18,13 +18,14 @@ const Intro = () => {
           I'm
           <span className="introName"> Hyemee</span>
           <br />
-          MERN Full Stack developer
+          Frontend Developer
         </span>
         <p className="introPara">
-          <br />I am a passionate web developer. Some traits of my strong points
-          that I am proud of are persistance and diligence. <br /> Also, I am
-          sure I will be a member who makes a harmony with other team members
-          and get things done!!
+          <br />
+          Experienced web developer with a solid foundation in frontend
+          development and a growing understanding of backend concepts. Committed
+          to delivering high-quality user experiences and overcoming challenges
+          with precision and creativity
         </p>
         <Link>
           <button className="btn" onClick={handleDownloadClick}>
