@@ -18,7 +18,7 @@ const Intro = () => {
           I'm
           <span className="introName"> Hyemee</span>
           <br />
-          Frontend Developer
+          Frontend-Developer
         </span>
         <p className="introPara">
           <br />
